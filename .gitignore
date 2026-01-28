@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.next/
+*.exe
+*.dmg
+*.app

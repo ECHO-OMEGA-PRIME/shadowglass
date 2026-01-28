@@ -1,0 +1,26 @@
+# SHADOWGLASS API Dependencies
+# Professional Penetration Testing Toolkit
+
+# Core
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+
+# Authentication
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.6
+
+# HTTP Clients
+httpx>=0.26.0
+aiohttp>=3.9.0
+
+# Firebase (for production)
+firebase-admin>=6.2.0
+google-cloud-firestore>=2.14.0
+
+# Security
+passlib>=1.7.4
+bcrypt>=4.0.1
+
+# Utilities
+python-dateutil>=2.8.0

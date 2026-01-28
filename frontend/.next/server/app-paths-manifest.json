@@ -1,0 +1,14 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/assessments/[id]/page": "app/assessments/[id]/page.js",
+  "/assessments/new/page": "app/assessments/new/page.js",
+  "/assessments/page": "app/assessments/page.js",
+  "/findings/new/page": "app/findings/new/page.js",
+  "/findings/page": "app/findings/page.js",
+  "/login/page": "app/login/page.js",
+  "/osint/page": "app/osint/page.js",
+  "/page": "app/page.js",
+  "/prometheus/page": "app/prometheus/page.js",
+  "/reports/page": "app/reports/page.js",
+  "/targets/page": "app/targets/page.js"
+}

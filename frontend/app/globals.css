@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 17, 17, 27;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #11111b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #313244;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #45475a;
+}
+
+/* Severity colors */
+.severity-critical { @apply bg-red-600 text-white; }
+.severity-high { @apply bg-orange-500 text-white; }
+.severity-medium { @apply bg-yellow-500 text-black; }
+.severity-low { @apply bg-blue-500 text-white; }
+.severity-info { @apply bg-gray-500 text-white; }
+
+/* Status colors */
+.status-draft { @apply bg-gray-600; }
+.status-active { @apply bg-green-600; }
+.status-paused { @apply bg-yellow-600; }
+.status-completed { @apply bg-blue-600; }
+
+/* Card styles */
+.card {
+  @apply bg-dark-100 border border-gray-700 rounded-lg p-4;
+}
+
+.card-hover {
+  @apply hover:border-primary-500 transition-colors cursor-pointer;
+}
